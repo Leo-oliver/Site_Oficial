@@ -1,0 +1,408 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body html {width: 100%;}
+
+.begin
+{
+    display:flex;
+    background-image: url(/Image/estrada.PNG);
+    background-size: cover;
+    flex-wrap: wrap;  
+    width: 100%; 
+}
+.ini
+{
+    display: none;
+}
+.begin h1
+{
+    padding: 40px;
+}
+.cav 
+{
+    width: 100%;
+    text-align: center;
+}
+
+.icon{display: none;}
+.active {
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+}
+
+.menu_part
+{
+    display: flex;
+    width: 100%;
+}
+
+.club_name
+{
+    width: 40%;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    color: white;   
+}
+.menu_1
+{
+    display: flex;
+    width: 60%;
+    align-items: flex-end;
+}        
+.menu_1 a
+{    
+    display: inline-flex; 
+    margin-bottom: 40px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    text-decoration: none;   
+    color: white;
+    font-family: 'Rye', cursive;
+}    
+
+.menu_1 a:hover
+{
+    color: red;
+}
+#myLinks
+{
+    display: none;
+}
+.mc 
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+.titulo
+{
+    width: 100%;
+    text-align: center;
+}
+.titulo h2
+{
+    font-family: 'Rye', cursive;
+}
+.p1
+{
+    width: 100%;
+    margin: 0 25%;
+    text-align: center;
+}
+
+.history
+{
+    display: flex;
+    width: 100%;
+}
+.n1porcent
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.n1porcent span
+{
+    font-size: 550px;
+}
+.n1porcent b
+{
+    font-size: 200px;
+    align-self: center;    
+}   
+
+.n1porcent p
+{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.title_h
+{
+    display: block;
+    width: 50%;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+}
+.title_h span
+{
+    color: red;
+}
+.title_h h2
+{
+    font-family: 'Rye', cursive;
+}
+
+.picture
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.pic_1
+{
+    display: flex;
+}
+.pic_1 img
+{
+    width: 25%;
+    border: 2px solid white;
+}
+.pic_2
+{
+    display: flex;
+}
+.pic_2 img
+{
+    width: 25%;
+    border: 2px solid white;
+}
+
+/* Formulário*/
+fieldset 
+{
+    border: 0;
+}
+
+#formulario
+{
+    background-color: rgb(5, 0, 0);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    margin: 20%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+input, select, textarea
+{
+    font-family: sans-serif;
+    font-size: 1em;
+    color:rgb(5, 0, 0);
+    border-radius: 5px;
+}
+
+.campo 
+{
+    margin-bottom: 1em;
+}
+
+.campo label
+{
+    margin-bottom: 0.2em;
+    color: #ffffff;
+    display: block;
+}
+
+fieldset.grupo .campo 
+{
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea 
+{
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    display: block;
+}
+
+.campo select option 
+{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus 
+{
+    background: #E0E0F8;
+}
+#viag
+{
+    display: flex;
+    flex-direction: column;
+}
+.campo textarea
+{
+    width: 50%;
+    height: 150px;
+
+}
+
+#botao 
+{
+    font-size: 1.2em;
+    background:#ffffff;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(5, 0, 0);
+    padding: 0.2em 0.6em;
+    top: 90%;
+    margin-left: 10%;   
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+#botao:hover 
+{
+    background: #CCBBFF;
+}
+
+/* Elementos de classe botão e de tag <select> */
+#botao, select
+{
+    cursor: pointer;
+} 
+
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(179, 175, 175);
+    width: 100%;
+    height: 150px;
+}
+.leandro
+{
+    text-align: center;
+    width: 100%;
+}
+.mais_contatos
+{
+    display: flex;
+    width: 100%;
+}    
+.contacts
+{
+    text-align: center;    
+}
+
+@media screen and (max-width:600px)
+{
+    *
+    {
+        width: 100%;
+    } 
+    .begin
+    {
+        display: flex;    
+    }
+    .club_name h1
+    {    
+        font-size: 25px;
+        margin-left: 36%;
+    }
+    .menu_1
+    {
+        display: none;
+    }
+    .ini
+    {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }      
+    .topnav 
+    {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    
+    .topnav #myLinks 
+    {
+        display: none;
+    }
+    
+    /*Estilo dos links do menu */
+    .topnav a
+    {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    /* Estilo do ícone do menu hamburger  */
+    .topnav a.icon 
+    {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .history
+    {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .n1porcent
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .n1porcent span
+    {
+        font-size: 250px;
+        text-align: start;
+    }
+    .n1porcent b
+    {
+      font-size: 150px;
+      position: absolute;
+      align-self: center;
+    }
+    .title_h
+    {
+        width: 100%;
+    }   
+
+    /*Formulario*/
+    #formulario
+    {
+        background-color: rgb(5, 0, 0);
+        font-family: sans-serif;
+        font-size: 1em;
+        color: #ffffff;
+        margin: 0;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        border-radius: 5px;
+        justify-content: center;
+    }
+    .campo select option 
+{
+    padding: 0;
+}
+    .mais_contatos
+    {
+        display: flex;
+        width: 100%;
+    }  
+    .mais_contatos img
+    {
+        display: none;
+    }    
+}
+
+
+
+
+
+

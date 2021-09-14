@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo_p
+{
+    font-size: 120px;
+    text-align: center;
+    border-top: 17px solid rgb(42, 42, 170);
+}
+section
+{
+    margin: 2rem;
+}
+section a
+{
+    text-decoration: none;
+    color: black;
+}
+.topo
+{
+    width: 100%;
+    background-color: rgb(42, 42, 170) ;
+}
+.topo a 
+{
+    color: white;
+}
+
+.rod
+{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(42, 42, 170);
+    bottom: 0;
+    position: fixed;
+    color: white;
+}

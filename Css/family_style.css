@@ -1,0 +1,304 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topo
+{
+    display: flex;
+    width: 100%;
+    background-color: black;   
+    background-size: cover; /*size=tamanho, background-size: cover; = cobrir toda a tela*/   
+    padding: 20px 0 40px 0;
+}
+
+.brasao h3
+{
+    display: inline-block;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Pangolin', cursive;
+    color: white;    
+}
+
+.brasao
+{
+    width: 40%;
+}
+.menu
+{
+     display: flex;
+     width: 60%;
+}
+.pessoas{width: 100%;}
+
+.pessoas a
+{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;   
+    margin: auto 7px;    
+}
+
+.pessoas a:hover{border-bottom: 2px solid white;}
+.topnav{display:none ;}
+
+#first_b
+{
+    background-color: black;
+    color: white;
+}
+
+section.apresentacao
+{
+    display: inline-block;
+    width: 100%;
+}
+.apres-text h2
+{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.apres-text h3
+{
+    font-size: 40px;
+    margin-left: 35%;
+}
+.music_area
+{
+    width: 100%;
+    position: absolute;
+}
+
+#part_s{display: none;}
+.music_name
+{
+    font-size: 40px;
+    text-align: center;
+ }
+
+.music
+{
+    display: flex;
+    position: relative;
+    margin: 2% 20% 2% 25%; 
+    background-size: cover;
+}
+#p2{margin-left: 150px;}
+
+#comp
+{
+    font-size: 26px;
+    text-align: center;
+    font-style: italic;
+}
+
+.foto_familia
+{
+   width: 100%;
+  
+}
+.biografia
+{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+
+}
+
+.bio-single
+{
+    display: flex;
+    background-color: #ccc;    
+    border: 2px solid gray;
+}
+
+.foto-pai, .foto-isa, .foto-pastor, .foto-thanos
+{   
+    display: flex;
+    border-radius: 50px;
+    margin-left: 50%;
+    border: 2px solid gray;
+    width: 33.3;
+}
+
+.pai
+{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 50px; 
+    width: 33.3%;  
+}
+
+.mae
+{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 50px; 
+    width: 33.3%;   
+}
+
+.foto-mae, .foto-leu, .foto-nina, .foto-dyna
+{
+    display: flex;
+    border-radius: 50px;
+    margin-left: 50%;
+    border: 2px solid gray;
+    width: 33.3;
+}
+
+.botao-inicio 
+{
+    display: flex;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgb(32, 3, 3);
+    text-decoration: none;
+    color: #FFDD33;
+    width: 100%;   
+} 
+
+.rodape
+{
+    bottom: 0;
+    background-color: gray;
+    width: 100%; 
+    height: 120px; 
+    text-align: center;
+}
+.redes_sociais{width: 100%;}
+
+.redes_sociais a
+{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.botao-fim-pag
+{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #FFDD33;
+    text-decoration: none;
+    color: #0F3FD3;
+}
+
+@media screen and (max-width: 768px)
+{
+        .menu
+        {
+            display: none;
+        }
+    
+    .topo
+    {
+        display: flex;
+        width: 100%;
+        height: auto;
+        padding: auto;
+    }
+        .brasao
+        {
+            display: flex;
+            width: 100%;
+        }
+        .lo
+        {
+            float: right;
+            margin-top: 2rem;
+        }
+        #first_b{display: none;}
+    
+        #logo-in{width: 150px;}
+        
+        section.apresentacao 
+        {
+            display: none;
+        }  
+    
+    .music{display: none;}
+    #part_s
+    {
+        display: inline-block;
+        position: absolute;
+        margin-left: 30%;  
+        margin-top: 5%;     
+    }
+    #comp
+    {
+        font-size: 17px;
+    }
+
+    .bio-single
+    {
+        display: inline-flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .foto-pai, .foto-isa, .foto-pastor, .foto-thanos
+    {
+        height: 300px;
+        width: 200px;
+        margin: auto;
+    }
+    .pai, .mae
+    {
+        display: block;
+        margin: 0;
+        width: 100%;
+        text-align: center;        
+    }
+
+    .foto-mae, .foto-leu, .foto-nina, .foto-dyna
+    {
+        height: 300px;
+        width: 200px;
+        margin: auto;
+    }  
+    /*Menu hamburger */
+    .topnav 
+    {
+        display: block;
+        overflow: hidden;
+        background-color: black;
+        position: relative;
+    }
+    
+    .topnav #myLinks 
+    {
+        display: none;
+    }
+    
+    /*Estilo dos links do menu */
+    .topnav a
+    {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    /* Estilo do ícone do menu hamburger  */
+    .topnav a.icon 
+    {
+        background:white;
+        color: black;
+        border-radius: 10px;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;    
+    }
+}    

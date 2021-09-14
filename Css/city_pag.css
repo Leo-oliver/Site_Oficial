@@ -1,0 +1,580 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.date
+{
+    display: flex;
+    height: 30px;
+    background-color: rgb(42, 42, 172);
+    color: white;
+}
+
+.date_today
+{
+    display: flex;
+    width: 50%;
+}
+.redes
+{
+    width: 50%; 
+    
+}
+.redes a {float: right;}
+
+.redes img
+{     
+    width: 30px;
+    height: 30px; 
+    padding-left:5px;
+    margin-left: 10px;
+    
+}
+
+.cabeca
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.divTopo
+{
+    display: flex;
+    height: 150px;
+    width: 50%;
+}
+.divTopo h2
+{
+    margin-top: 50px;
+}
+
+.logo_empresa
+{
+    float: left;  
+    height: 100px;
+    margin:20px;    
+}
+
+.ad
+{ 
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: 100px; 
+    border-radius: 20px; 
+    margin-top: 20px;  
+    background-color: black;
+}
+.ad a
+{
+    font-size:20px ;
+    color: white;
+    text-decoration: none;
+}
+.ad img
+{
+   width:150px;
+   border-radius: 5%;
+}
+
+.menuTopo
+{
+    display:flex; 
+    padding: 5px 20px;    
+    background-color: rgb(42, 42, 172); 
+    width: 100%;
+}
+
+.menuTopo a
+{
+    color:white;
+    text-decoration: none; 
+    margin-right: 40px;
+}
+
+.menuTopo a:hover
+{
+    border-bottom: 2px solid yellow;    
+}
+
+.total_cities
+{
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(122, 167, 236);
+}
+
+.cities
+{
+    display: flex;
+    width: 50%;     
+}
+
+.not_1
+{
+    display: flex;
+    width: 100%;
+    position: relative; 
+    border: 2px solid rgb(255, 255, 255);
+} 
+
+.lagoa
+{
+    width: 100%;
+}    
+    
+.not_1 span a
+{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    font-size: 28px;
+    color: white;
+    text-decoration: underline;
+}
+
+
+.cities_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.not_2
+{
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.not_2 span a
+{
+    position: absolute; 
+    left: 51%; 
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+}
+.london
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.not_3
+{
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+.porto
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.not_3 span a
+{
+    position: absolute; 
+    left: 75%; 
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+}
+
+.not_4
+{
+    width: 50%;
+    border: 2px solid white;
+}
+.dub
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.not_4 span a
+{
+    position: absolute;  
+    left: 50%;
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+}
+
+.not_5
+{
+    width: 50%; 
+    border: 2px solid rgb(255, 255, 255); 
+}
+.rio
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.not_5 span a
+{
+    position: absolute;  
+    left: 75%;
+    font-size: 17px;
+    color:black;
+    text-decoration: underline;
+}
+
+
+.rodape
+{
+    display: inline-block;    
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    bottom: 0;
+    background-color: rgb(42, 42, 172);  
+}
+.rodape h1
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+}
+
+
+.logos
+{
+    display: inline-block;
+    width: 100%;
+    text-align: end;    
+}
+.logos img
+{
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;    
+}
+/*paraiso*/
+.paraiso
+{
+    display: inline;
+}
+.paraiso h1
+{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;    
+}
+.paraiso h2
+{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+#par
+{
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+#local
+{
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+.cidade_historia img 
+{
+    float: left;
+}
+/*fim paraiso*/
+
+/*Londres*/
+
+.city h1
+{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;    
+}
+#lon{float: right;}
+
+#place{float: left;}
+
+#londinio{float: left;}
+
+#church{float: right;}
+
+.city h2
+{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+/*fim Londres*/
+
+/*Porto Pt*/
+
+.cidade_porto h1
+{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.cidade_porto h2
+{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.cidade_porto #foto_porto{float: right;}
+
+.cidade_porto #mapa_porto{float: left;}
+#geo_pt{float: right;}
+
+/*fim Porto Pt*/
+
+/*Dublin*/
+.dubai_city h1
+{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.dubai_city h2
+{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+#dublin_img{float: right;}
+#cam{float: left;}
+#loc_dub{float: right;}
+/*fimDublin*/
+
+/*Rio de Janeiro*/
+
+.rio p
+{
+    font-size: 20px;
+    
+}
+
+.cidade_rio h1
+{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.cidade_rio h2
+{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+#foto_rio{float: right;}
+#rio_1889{float: left;}
+#local_rio{float: right;}
+/*Fim Rio de Janeiro*/
+
+.rodape
+{
+    font-size: 26px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:768px)
+{
+    .date_today{display: none;}
+    .redes{width: 100%;}
+    .cabeca, .divTopo
+    {
+       width: 100%
+    }
+    .divTopo h2
+    {       
+        font-size: 17PX;
+        top:100px;  
+        width: 100%;      
+    }
+    .ad
+    {
+        display: none;
+    }
+
+    .menuTopo
+    {
+      overflow: hidden; 
+      background-color: rgb(42, 42, 172);        
+      position: relative;
+    }
+    
+    .menuTopo #Links
+    {
+      display: none;
+    }
+    
+    .menuTopo a 
+    {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .menuTopo a.icone 
+    {
+      background-image: url(/Image/iconeSanduiche.PNG);
+      background-size: cover;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }     
+    .total_cities
+    {
+        display: inline;
+        width: 100%;
+        background-color: rgb(122, 167, 236);
+    }
+
+    .cities
+    {
+        display: flex;
+        width: 100%;     
+    }
+
+    .not_1
+    {
+        display: flex;
+        width: 100%;
+        position: relative; 
+        border: 2px solid rgb(255, 255, 255);
+    } 
+
+    .lagoa
+    {
+        width: 100%;
+    }    
+        
+    .not_1 span a
+    {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        font-size: 28px;
+        color: white;
+        text-decoration: underline;
+    }
+
+
+    .cities_2
+    {
+        display: inline;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .not_2
+    {
+        display: flex;
+        width: 100%;
+        position: relative; 
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .not_2 span a
+    {
+        position: absolute; 
+        bottom: 0px;
+        left: 0;
+        font-size: 28px;
+        color: white;
+        text-decoration: underline;
+    }
+    .london
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .not_3
+    {
+        width: 100%;
+        border: 3px solid rgb(255, 255, 255); display: flex;
+        width: 100%;
+        position: relative; 
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .porto
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .not_3 span a
+    {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        font-size: 28px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .not_4
+    {
+        display: flex;
+        width: 100%;
+        position: relative; 
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .dub
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .not_4 span a
+    {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        font-size: 28px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .not_5
+    {
+        display: flex;
+        width: 100%;
+        position: relative; 
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .rio
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .not_5 span a
+    {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        font-size: 28px;
+        color: white;
+        text-decoration: underline;
+    }    
+
+}
